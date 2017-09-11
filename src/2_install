@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo R CMD INSTALL menina_1.0.tar.gz

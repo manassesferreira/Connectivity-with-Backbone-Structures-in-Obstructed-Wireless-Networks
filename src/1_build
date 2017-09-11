@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd MenInA
+echo "library("Rcpp")
+compileAttributes(verbose=TRUE)" > comAtt.R
+R CMD BATCH comAtt.R
+rm -rf comAtt.*
+cd ..
+R CMD build MenInA

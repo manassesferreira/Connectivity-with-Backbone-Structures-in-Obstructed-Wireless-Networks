@@ -1,0 +1,2 @@
+bash 1_build && bash 2_install && bash 3_test
+while true; do bash 3_test; sleep 10; done

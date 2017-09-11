@@ -1,0 +1,3 @@
+useDynLib(menina)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp,evalCpp)
